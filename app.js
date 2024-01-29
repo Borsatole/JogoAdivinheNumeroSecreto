@@ -25,7 +25,7 @@ function verificarChute() {
     if (chute == numeroSecreto) {
 
         exibirTextoNaTela('h1','Acertou');
-        
+
         let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
         let mensagemTentativas = `Você descobriu o numero secreto com ${tentativas} ${palavraTentativa}.`;
 
